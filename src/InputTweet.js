@@ -16,19 +16,6 @@ function InputTweet({ username }) {
     }
   };
 
-  window.onscroll = scrollShowNav;
-  function scrollShowNav() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      document.getElementsByClassName("input__container")[0].style.top =
-        "-50px";
-    } else {
-      document.getElementsByClassName("input__container")[0].style.top = "0px";
-    }
-  }
-
   const upload = (e) => {
     e.preventDefault();
 
