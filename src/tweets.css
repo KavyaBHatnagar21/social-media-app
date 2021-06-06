@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+  color: #424642;
+}
+
+.tweets__display {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tweets__input {
+  margin-bottom: 20px;
+}
+
+.button__nav {
+  display: flex !important;
+}
+
+.tweets__displaycards {
+  margin: 0 1%;
+  width: 100%;
+}
+
+bin__button {
+  border: none;
+  background-color: white;
+}

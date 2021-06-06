@@ -1,0 +1,56 @@
+.app__header {
+  margin-top: 1.5rem;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__logo {
+  color: #75cfb8;
+  display: inline-block;
+}
+
+hr {
+  background-color: lightgray;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.header__link {
+  color: #424642;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #75cfb8;
+  text-decoration: none;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  font-size: large;
+}
+
+.header__logoutbtn {
+  border: none;
+  background-color: white;
+  color: #424642;
+  font-size: large;
+  cursor: pointer;
+}
+
+.header__logoutbtn:hover {
+  color: #75cfb8;
+}

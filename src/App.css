@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Sacramento&display=swap");
+
+.app__container {
+  padding: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tweets__row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.card__spacing {
+  padding: 20px;
+  margin-left: 350px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tweets__display > h2 {
+  color: #75cfb8;
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.sticky__nav {
+  position: sticky;
+  background-color: white;
+  z-index: 3;
+  top: 0;
+  padding-bottom: 3%;
 }

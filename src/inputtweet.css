@@ -1,0 +1,29 @@
+.input__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__container {
+  margin-left: 30%;
+  width: 50%;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  display: inline-block !important;
+  padding: 22px !important;
+  cursor: pointer !important;
+  color: white !important;
+  font-weight: 800 !important;
+  background-color: #00b5ad;
+}
+
+.custom-file-upload:hover {
+  background-color: teal;
+}
+
+input[type="file"] {
+  position: absolute;
+  left: -99999rem;
+}
