@@ -6,7 +6,7 @@
 
 1. React for frontend
 2. Firebase for backend, hosting and authentication
-3. Semantic UI, Material UI, Moment.js for human friendly date formatting
+3. Semantic UI, Material UI for design
 
 ## About app
 I have made this beautiful social media app where -
