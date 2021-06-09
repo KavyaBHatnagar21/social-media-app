@@ -6,12 +6,12 @@
 
 1. React for frontend
 2. Firebase for backend, hosting and authentication
-3. Semantic UI for the design
+3. Semantic UI, Material UI for the design
 
 ## About app
 I have made this beautiful social media app where -
 1. user can register and signup
-2. tweet what's in his mind
+2. tweet what's in his mind and Upload a photo
 3. like and unlike on other's post
 4. Comment on other's post as well
 
