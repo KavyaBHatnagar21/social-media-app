@@ -1,6 +1,6 @@
 # My social media app
 
-[The project](https://twitter-5c9b5.web.app).
+[The project](https://twitter-5c9b5.web.app)
 
 ## Technologies used
 
