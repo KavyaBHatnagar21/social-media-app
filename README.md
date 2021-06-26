@@ -4,7 +4,7 @@
 
 ## Technologies used
 
-1. React for frontend
+1. React for frontend, Redux for managing state of the user
 2. Firebase for backend, hosting and authentication
 3. Semantic UI, Material UI for design
 
